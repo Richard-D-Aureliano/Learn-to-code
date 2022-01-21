@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- Aqui estão alguns links e textos usados no treinamento do freecodecamp em conjunto com as aulas de css-->
+<html>
+    <head>
+        <title>Estilos de texto</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body {
+                font-size: 40px;
+                font-family: "Times New Roman", Times, Serif;
+            }
+            .negrito{
+                /*normal, bold, podemos definir de 100 a 900 (máximo)*/
+                font-weight: bold
+            }
+            .italico{
+                font-style: italic;
+            }
+            .formatacao{
+                /*underline, overline, line-through são algumas opções*/
+                text-decoration:line-through;
+            }
+            .texto{
+                /*podemos escrever tudo em uma unica linha de código*/
+                Font:bold 40px sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p class="negrito">Texto negrito</p>
+            <p class="italico">Texto itálico</p>
+            <p class="formatacao">Formatação de texto</p>
+            <p class="texto">Texto</p>
+            <p>Padrão</p>
+        </div>
+            <a href="#"> <img src="https://www.bit.ly/fcc-relaxing-cat" alt="COmentário da foto. lembra dessa também cara"></a>
+            <form action="coloca o link da base de dados">
+                <input type="text" required 
+                <!-- required serve para a pessoa não tentar submeter um espaço em branco --> 
+                placeholder="Lembra dessa">
+                <button type="submit">Click here to go.</button> 
+            </form>
+                <!-- estes são botões de escolha, ao escolher um o outro é desmarcado.-->
+                <!--Importante adicionar Value, para que seja identificado na base de dados corretamente como
+                indoor-outdoor=indoor -->
+            <label for="indoor"> Indoor
+                <input id="indoor" value="indoor" type="radio" checked name="indoor-outdoor">
+            </label>
+            <label for="outdoor"> Outdoor
+                <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> 
+            </label>
+            <!--aqui temos uma caixa de marcação, temos que usar o mesmo name para elas, mas ids diferentes-->
+            <label for="loucura"><input id="loucura" value="loucura" type="checkbox" checked name="indoor-outdoor">Loucura</label>
+    </body>
+</html>

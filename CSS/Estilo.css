@@ -1,0 +1,8 @@
+.texto{
+    color: red;
+    background: blue;
+}
+/*Assim posso fazer um unico arquivo com todas as alterações que quero
+e colocar em qualquer número de páginas
+Caso necessário a troca de algum estilo, posso tanto fazer aqui quando for geral
+ou posso sobrepor a ordem usando inline e afins*/

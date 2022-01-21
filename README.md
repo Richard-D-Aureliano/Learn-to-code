@@ -1,4 +1,21 @@
-# Learning Python
-### This is my Python lessons. This is what i learned and how i trained!
+# Hello!
 
-To learn python, i used the [Curso em vídeo](https://www.cursoemvideo.com/) plataform and Udemy courses!
+### Essas são minhas anotações sobre minhas aulas feitas em cursos dentro da plataforma UDEMY!!
+
+#### Aqui teremos anotações sobre:
+
++ HTML5
+
++ CSS 3
+
++ JavaScript
+
++ Python
+
++ .Net
+
++ C#
+
++ E um pouco mais de projetos paralelos.
+
+  ## Que hoje seja um bom dia! Um dia melhor do que ontem!!!

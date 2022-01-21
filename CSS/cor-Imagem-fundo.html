@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cor e Imagem de fundo</title>
+        <meta charset="utf-8">
+        <style>
+            /*.fundo {
+                background-color: blue pode ser o nome ou número hexadecimal
+            }*/
+
+            h1{
+                background-image: url('imagens/yoshi.png');
+                background-repeat: repeat-x;/* assim podemos definir repetições, no, repeat, X e Y;*/
+                background-attachment: fixed;/*fixed deixa fixa no plano de fundo, scroll rola junto com a página*/
+                background-position: right bottom;/*primero valor em X left center right segundo em Y top center bottom*/
+            }
+
+            .fundo{
+                background: blue url('imagens/yoshi.png') no-repeat fixed right top;
+            }
+        </style>
+    </head>
+    <body class="fundo">
+        <h1>Conteúdo 1</h1>
+    </body>
+</html>
