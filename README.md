@@ -1,21 +1,15 @@
 # Hello!
 
-### Essas são minhas anotações sobre minhas aulas feitas em cursos dentro da plataforma UDEMY!!
+### Essas são minhas anotações sobre minhas aulas feitas em cursos dentro da plataforma UDEMY e afins!!!
 
-#### Aqui teremos anotações sobre:
+#### Aqui teremos anotações e projetos de:
 
 + HTML5
 
 + CSS 3
 
-+ JavaScript
++ JavaScript 
 
 + Python
-
-+ .Net
-
-+ C#
-
-+ E um pouco mais de projetos paralelos.
 
   ## Que hoje seja um bom dia! Um dia melhor do que ontem!!!
